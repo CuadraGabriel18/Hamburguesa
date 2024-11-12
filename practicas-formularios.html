@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+   <head>
+      <title>Problema Naufrago Satisfecho</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+   </head>
+   
+   <body style="background-image: url('ham.jpg'); height: 100vh; background-position: center; background-repeat: no-repeat; background-size: cover;">
+    <div class="text-center fs-1 mt-3">
+      <h1 style="color: rgb(136, 66, 0);">EL NAUFRAGO SATISFECHO</h1>
+    </div>
+
+      <form>
+
+      <div class="container mt-4" style="background: transparent; border: 5px solid rgb(229, 255, 0); border-radius: 20px; backdrop-filter: blur(3px); " >
+        <form>
+          <div class="row mt-4 g-3 justify-content-center">
+            <label class="form-label col-3 fs-4" style="color: rgb(91, 222, 255)">Cantidad De Hamburguesas</label>
+            <div class="col-6">
+              <input type="text" style="background-color: rgb(165, 255, 82);"  class="form-control" name="txtCantidad" placeholder="Ingrese Cantidad">
+            </div>
+          </div>
+
+          <div class="row mt-4 g-3 justify-content-center">
+            <label class="form-label col-3 fs-4" style="color: rgb(91, 222, 255)" >Tipo De Hamburgesas</label>
+            <div class="col-6">
+              <select style="background-color:  rgb(165, 255, 82);" name="cmbTipoHamburguesa" class="form-select" size="1">
+                <option value="No Selecciono Tipo De Hamburgas">--Seleccione--</option>
+                <option value="Sencillas">Sencillas</option>
+                <option value="Dobles">Dobles</option>
+                <option value="Triples">Triples</option>>
+             </select> 
+            </div>
+          </div>
+
+          <div class="row mt-4 g-3 justify-content-center">
+            <label class="form-label col-3 fs-4" style="color: rgb(91, 222, 255)">Tipo De Pago</label>
+            <div class="col-6">
+              <select style="background-color:  rgb(165, 255, 82);" name="cmbTipoPago" class="form-select" size="1">
+                <option value="No Selecciono Tipo De Pago">--Seleccione--</option>
+                <option value="Efectivo">Efectivo</option>
+                <option value="Tarjeta De Credito">Tajeta De Credito</option>
+             </select>
+            </div>
+          </div>
+
+          <div class="row mt-4 g-3 justify-content-center" >
+            <div class="col-2 text-center">
+              <button type="reset"  class="btn btn-info" style="background-color: rgb(255, 174, 0);">Borrar</button>
+            </div>
+            <div class="col-1 text-center">
+              <button type="button" class="btn btn-info" style="background-color: rgb(47, 201, 1);"  onclick="enviarDatos()">Buscar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      </form>
+      </script>
+      <!-- Enlazar el archivo js con html -->
+      <script src="js/funciones.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+   </body>
+</html>
